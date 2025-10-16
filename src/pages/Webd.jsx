@@ -1,12 +1,14 @@
 import React from 'react'
 import Main from '../components/section/Main'
 
-const Wedd = () => {
+const Webd = () => {
     return (
-        <Main>
+        <Main 
+            title = "웹 디자인 개발 기능사"
+            description="웹 디자인 개발 기능사 튜토리얼 강의입니다.">
             Webd
         </Main>
     )
 }
 
-export default Wedd
+export default Webd
