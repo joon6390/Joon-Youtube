@@ -1,11 +1,11 @@
 import React from 'react'
 
-import { youtubeText } from '../../data/yotube'
+import { youtubeText } from '../../data/youtube'
 import { Link } from 'react-router-dom'
 
 const Youtube = () => {
     return (
-        <section id='yotube'>
+        <section id='youtube'>
             <h2>나만의 유튜브 사이트 제작 연습</h2>
             <div className="video__inner">
                 {youtubeText.map((video, key) => (
