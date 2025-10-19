@@ -1,3 +1,5 @@
+@use '../setting/mixin' as *;
+
 .search__inner {
     position: relative;
     width: 100%;
@@ -41,6 +43,7 @@
         }
         input {
             padding: 14px 14px 14px 45px;
+            @include line(1)
         }
     }
 }
