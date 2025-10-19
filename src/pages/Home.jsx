@@ -10,14 +10,16 @@ import { websiteText } from '../data/website'
 import { gsapText } from '../data/gsap'
 import { portfolioText } from '../data/port'
 import { youtubeText } from '../data/youtube'
+import { developerText } from '../data/developer'
+import { todayText } from '../data/today'
 
 const Home = () => {
     return (
         <Main title="Joon 유튜브" 
         description="Joon 유튜브에 오신 것을 환영합니다."
         >
-            <Today />
-            <Developer />
+            <Today videos={todayText} id='today' />
+            <Developer videos={developerText} title='추천 개발자를 소개합니다.' id='developer' />
             <VideoSlider videos={webdText} title='웹 디자인 개발 기능사 실기 연습' id='Webd' />
             <VideoSlider videos={websiteText} title='웹 표준 사이트 제작 연습' id='WebSite' />
             <VideoSlider videos={gsapText} title='GSAP 패럴랙스 효과 연습' id='gsap' />

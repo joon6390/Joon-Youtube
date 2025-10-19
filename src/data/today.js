@@ -6,7 +6,7 @@ import todayView05 from "../assets/img/today/todayView05.jpg";
 import todayView06 from "../assets/img/today/todayView06.jpg";
 import todayView07 from "../assets/img/today/todayView07.jpg";
 import todayView08 from "../assets/img/today/todayView08.jpg";
-
+ 
 export const todayText = [
     {
         img: todayView01,
