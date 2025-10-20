@@ -33,8 +33,6 @@ const Search = () => {
                         }
                     }}   
                 />
-                <div class="icon-keyboard" aria-hidden="true"></div>
-                <button class="btn-search" aria-label="검색"></button>
             </div>
         </div>
     )
