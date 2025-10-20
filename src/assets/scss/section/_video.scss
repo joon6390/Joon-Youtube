@@ -79,3 +79,21 @@
         }
     }
 }
+
+.video__more {
+    button {
+        width: 100%;
+        border: 1px solid var(--black400);
+        border-radius: 40px;
+        padding: 20px;
+        background-color: var(--black);
+        color: #3ea6ff;
+        transition: all 0.3s;
+        margin-bottom: 20px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: var(--black200);
+        }
+    }
+}
