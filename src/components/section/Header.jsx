@@ -7,18 +7,23 @@ import Sns from '../header/Sns';
 const Header = () => {
     const [ isMenuActive, setIsMenuActive ] = useState(false);
 
-    const toggleMenu = (e) => {
+    const toggleMenu = () => {
         setIsMenuActive(!isMenuActive);
-        
     }
 
     return (
         <header id='header' role='banner' className={isMenuActive ? 'active' : ''}>
-            <Logo toggleMenu={toggleMenu}/>
+            <button className='header__hamburger' onClick={toggleMenu} aria-label='메뉴 열기'>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <Logo />
             <Menu />
             <Sns />
         </header>
     )
 }
 
-export default Header
+export default Header;
