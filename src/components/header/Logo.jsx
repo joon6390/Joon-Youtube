@@ -6,7 +6,7 @@ const Logo = () => {
         <h1 className='header__logo'>
             <Link to='/'>
                 <em aria-hidden='true'></em>
-                <span>Joon's<br />YouTube</span>
+                <span>JoonTube</span>
             </Link>
         </h1>
     )
