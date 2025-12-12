@@ -1,33 +1,30 @@
-import React, { useEffect, useState } from 'react'
-import Main from '../components/section/Main'
+import React, { useEffect, useState } from "react";
+import Main from "../components/section/Main";
 
-import { webdText } from '../data/webd'
-import VideoCard from '../components/video/VideoCard'
+import { webdText } from "../data/webd";
+import VideoCard from "../components/video/VideoCard";
 
 const Webd = () => {
-    const [loading, setLoading] = useState(true);
-        
-    useEffect(() => {
-        setTimeout(() => {
-            setLoading(false);
-        }, 300);
-    }, []);
+  const [loading, setLoading] = useState(true);
 
-    const webdPageClass = loading ? 'isLoading' : 'isLoaded';
-            
-    return (
-        <Main 
-            title = "웹 디자인 개발 기능사"
-            description="웹 디자인 개발 기능사 튜토리얼 강의입니다.">
-            
-            <section id='webdPage' className={webdPageClass}>
-                <h2>웹 디자인 개발 기능사 실기 강의 목록입니다.</h2>
-                <div className="video__inner">
-                    <VideoCard videos={webdText} />
-                </div>
-            </section>
-        </Main>
-    )
-}
+  useEffect(() => {
+    setTimeout(() => {
+      setLoading(false);
+    }, 300);
+  }, []);
 
-export default Webd
+  const webdPageClass = loading ? "isLoading" : "isLoaded";
+
+  return (
+    <Main title="정보처리기사" description="정보처리기사 실기 강의입니다.">
+      <section id="webdPage" className={webdPageClass}>
+        <h2>0원으로 정보처리기사 실기 합격하기!</h2>
+        <div className="video__inner">
+          <VideoCard videos={webdText} />
+        </div>
+      </section>
+    </Main>
+  );
+};
+
+export default Webd;

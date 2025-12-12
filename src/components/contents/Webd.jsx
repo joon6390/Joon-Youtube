@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Webd = () => {
   return (
     <section id="webd">
-      <h2>웹 디자인 개발 기능사 실기 연습</h2>
+      <h2>정보처리기사 실기</h2>
       <div className="video__inner">
         {webdText.map((video, key) => (
           <div className="video" key={key}>

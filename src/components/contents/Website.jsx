@@ -1,25 +1,25 @@
-import React from 'react'
+import React from "react";
 
-import { websiteText } from '../../data/website'
-import { Link } from 'react-router-dom'
+import { websiteText } from "../../data/website";
+import { Link } from "react-router-dom";
 
 const Website = () => {
-    return (
-        <section id='website'>
-            <h2>웹 표준 사이트 제작 연습</h2>
-            <div className="video__inner">
-                {websiteText.map((video, key) => (
-                    <div className="video" key={key}>
-                        <div className="video__thumb play__icon">
-                            <Link to={`/video/${video.videoId}`}>
-                                <img src={video.img} alt={video.title} />
-                            </Link>
-                        </div>
-                    </div>
-                ))}
+  return (
+    <section id="website">
+      <h2>웹디자인개발기능사 필기</h2>
+      <div className="video__inner">
+        {websiteText.map((video, key) => (
+          <div className="video" key={key}>
+            <div className="video__thumb play__icon">
+              <Link to={`/video/${video.videoId}`}>
+                <img src={video.img} alt={video.title} />
+              </Link>
             </div>
-        </section>
-    )
-}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
 
-export default Website
+export default Website;

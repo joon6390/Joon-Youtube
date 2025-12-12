@@ -1,25 +1,25 @@
-import React from 'react'
+import React from "react";
 
-import { portfolioText } from '../../data/port'
-import { Link } from 'react-router-dom'
+import { portfolioText } from "../../data/port";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
-    return (
-        <section id='portfolio'>
-            <h2>포트폴리오 사이트 제작 연습</h2>
-            <div className="video__inner">
-                {portfolioText.map((video, key) => (
-                    <div className="video" key={key}>
-                        <div className="video__thumb play__icon">
-                            <Link to={`/video/${video.videoId}`}>
-                                <img src={video.img} alt={video.title} />
-                            </Link>
-                        </div>
-                    </div>
-                ))}
+  return (
+    <section id="portfolio">
+      <h2>SQLD</h2>
+      <div className="video__inner">
+        {portfolioText.map((video, key) => (
+          <div className="video" key={key}>
+            <div className="video__thumb play__icon">
+              <Link to={`/video/${video.videoId}`}>
+                <img src={video.img} alt={video.title} />
+              </Link>
             </div>
-        </section>
-    )
-}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
 
-export default Portfolio
+export default Portfolio;

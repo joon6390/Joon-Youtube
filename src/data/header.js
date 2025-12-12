@@ -28,29 +28,29 @@ export const headerMenus = [
     src: "/developer",
   },
   {
-    title: "웹 디자인 개발 기능사",
+    title: "정보처리기사 필기",
+    icon: <CiFries />,
+    src: "/youtube",
+  },
+  {
+    title: "정보처리기사 실기",
     icon: <CiBoxes />,
     src: "/webd",
   },
   {
-    title: "웹 표준 사이트",
+    title: "웹디자인개발기능사 필기",
     icon: <CiBullhorn />,
     src: "/website",
   },
   {
-    title: "GSAP Parallax",
+    title: "웹디자인개발기능사 실기",
     icon: <CiCoffeeCup />,
     src: "/gsap",
   },
   {
-    title: "포트폴리오 사이트",
+    title: "SQLD",
     icon: <CiDumbbell />,
     src: "/port",
-  },
-  {
-    title: "정보처리기사 필기",
-    icon: <CiFries />,
-    src: "/youtube",
   },
 ];
 

@@ -1,11 +1,3 @@
-import todayView02 from "../assets/img/today/todayView02.jpg";
-import todayView03 from "../assets/img/today/todayView03.jpg";
-import todayView04 from "../assets/img/today/todayView04.jpg";
-import todayView05 from "../assets/img/today/todayView05.jpg";
-import todayView06 from "../assets/img/today/todayView06.jpg";
-import todayView07 from "../assets/img/today/todayView07.jpg";
-import todayView08 from "../assets/img/today/todayView08.jpg";
-
 export const todayText = [
   {
     img: "https://i.ytimg.com/vi/eaBWAk9UCos/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAR-cIIe0szIv6f-d9NvygRXCIvBw",
@@ -17,66 +9,39 @@ export const todayText = [
     page: "/youtube",
   },
   {
-    img: todayView02,
-    title: "Vite를 이용하여 포트폴리오 사이트 만들기",
-    desc: "안녕하세요, 여러분! 오늘은 특별한 프로젝트를 소개해드리려고 합니다. 제가 '나만의 코딩 유튜브 사이트 만들기'라는 주제로 프로젝트를 진행하게 되었는데요, 이 프로젝트는 저의 열정인 코딩과 온라인 교육을 결합한 결과물입니다. 이 프로젝트의 주요 목표는 누구나 쉽게 접근하고 배울 수 있는 공간을 만드는 것입니다. 제가 여러 해 동안 프로그래밍을 공부하면서 느낀 점은 양질의 학습 자료와 개인의 진도에 맞는 커리큘럼이 얼마나 중요한지입니다. 그래서 이 사이트에서는 초보자부터 고급 수준까지 다양한 난이도와 주제의 온라인 강의를 제공할 계획입니다.",
-    author: "webstoryboy",
-    channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    date: "2023.07.07",
-    page: "/port",
-  },
-  {
-    img: todayView03,
-    title: "React.js를 이용하여 포트폴리오 사이트 만들기",
-    desc: "안녕하세요, 여러분! 오늘은 특별한 프로젝트를 소개해드리려고 합니다. 제가 '나만의 코딩 유튜브 사이트 만들기'라는 주제로 프로젝트를 진행하게 되었는데요, 이 프로젝트는 저의 열정인 코딩과 온라인 교육을 결합한 결과물입니다. 이 프로젝트의 주요 목표는 누구나 쉽게 접근하고 배울 수 있는 공간을 만드는 것입니다. 제가 여러 해 동안 프로그래밍을 공부하면서 느낀 점은 양질의 학습 자료와 개인의 진도에 맞는 커리큘럼이 얼마나 중요한지입니다. 그래서 이 사이트에서는 초보자부터 고급 수준까지 다양한 난이도와 주제의 온라인 강의를 제공할 계획입니다.",
-    author: "webstoryboy",
-    channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    date: "2023.07.07",
-    page: "/port",
-  },
-  {
-    img: todayView04,
-    title: "Vue.js를 이용하여 포트폴리오 사이트 만들기",
-    desc: "안녕하세요, 여러분! 오늘은 특별한 프로젝트를 소개해드리려고 합니다. 제가 '나만의 코딩 유튜브 사이트 만들기'라는 주제로 프로젝트를 진행하게 되었는데요, 이 프로젝트는 저의 열정인 코딩과 온라인 교육을 결합한 결과물입니다. 이 프로젝트의 주요 목표는 누구나 쉽게 접근하고 배울 수 있는 공간을 만드는 것입니다. 제가 여러 해 동안 프로그래밍을 공부하면서 느낀 점은 양질의 학습 자료와 개인의 진도에 맞는 커리큘럼이 얼마나 중요한지입니다. 그래서 이 사이트에서는 초보자부터 고급 수준까지 다양한 난이도와 주제의 온라인 강의를 제공할 계획입니다.",
-    author: "webstoryboy",
-    channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    date: "2023.07.07",
-    page: "/port",
-  },
-  {
-    img: todayView05,
-    title: "Next.js를 이용하여 포트폴리오 사이트 만들기",
-    desc: "안녕하세요, 여러분! 오늘은 특별한 프로젝트를 소개해드리려고 합니다. 제가 '나만의 코딩 유튜브 사이트 만들기'라는 주제로 프로젝트를 진행하게 되었는데요, 이 프로젝트는 저의 열정인 코딩과 온라인 교육을 결합한 결과물입니다. 이 프로젝트의 주요 목표는 누구나 쉽게 접근하고 배울 수 있는 공간을 만드는 것입니다. 제가 여러 해 동안 프로그래밍을 공부하면서 느낀 점은 양질의 학습 자료와 개인의 진도에 맞는 커리큘럼이 얼마나 중요한지입니다. 그래서 이 사이트에서는 초보자부터 고급 수준까지 다양한 난이도와 주제의 온라인 강의를 제공할 계획입니다.",
-    author: "webstoryboy",
-    channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    date: "2023.07.07",
-    page: "/port",
-  },
-  {
-    img: todayView06,
-    title: "GSAP를 이용하여 창의적인 사이트 만들기",
-    desc: "안녕하세요, 여러분! 오늘은 특별한 프로젝트를 소개해드리려고 합니다. 제가 '나만의 코딩 유튜브 사이트 만들기'라는 주제로 프로젝트를 진행하게 되었는데요, 이 프로젝트는 저의 열정인 코딩과 온라인 교육을 결합한 결과물입니다. 이 프로젝트의 주요 목표는 누구나 쉽게 접근하고 배울 수 있는 공간을 만드는 것입니다. 제가 여러 해 동안 프로그래밍을 공부하면서 느낀 점은 양질의 학습 자료와 개인의 진도에 맞는 커리큘럼이 얼마나 중요한지입니다. 그래서 이 사이트에서는 초보자부터 고급 수준까지 다양한 난이도와 주제의 온라인 강의를 제공할 계획입니다.",
-    author: "webstoryboy",
-    channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    date: "2023.07.07",
-    page: "/gsap",
-  },
-  {
-    img: todayView07,
-    title: "웹디자인 기능사는 이 영상으로 준비 끝",
-    desc: "안녕하세요, 여러분! 오늘은 특별한 프로젝트를 소개해드리려고 합니다. 제가 '나만의 코딩 유튜브 사이트 만들기'라는 주제로 프로젝트를 진행하게 되었는데요, 이 프로젝트는 저의 열정인 코딩과 온라인 교육을 결합한 결과물입니다. 이 프로젝트의 주요 목표는 누구나 쉽게 접근하고 배울 수 있는 공간을 만드는 것입니다. 제가 여러 해 동안 프로그래밍을 공부하면서 느낀 점은 양질의 학습 자료와 개인의 진도에 맞는 커리큘럼이 얼마나 중요한지입니다. 그래서 이 사이트에서는 초보자부터 고급 수준까지 다양한 난이도와 주제의 온라인 강의를 제공할 계획입니다.",
-    author: "webstoryboy",
-    channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    date: "2023.07.07",
+    img: "https://i.ytimg.com/vi/pj2pE5P81Ac/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBKtCxsxTt4CI0GdBZhRMw426bBwA",
+    title: "정보처리기사 실기 0원으로 합격하기!",
+    desc: "안녕하세요, 여러분! 오늘은 정보처리기사 실기 무료 강의를 소개해드리려고 합니다. 0원으로 돈 안들이고 무료로 자격증 합격하기 프로젝트입니다. 이 프로젝트의 주요 목표는 굳이 돈 들이지 않고도 누구나 쉽게 접근하고 배우며 자격증을 딸 수 있게 하는 것입니다.",
+    author: "자격증 교육 1위 해커스",
+    channelId: "UC4REETmYtlvqHunx2tl2Pmg",
+    date: "2024.06.03",
     page: "/webd",
   },
   {
-    img: todayView08,
-    title: "디자인 부터 코딩까지 준비 완료",
-    desc: "안녕하세요, 여러분! 오늘은 특별한 프로젝트를 소개해드리려고 합니다. 제가 '나만의 코딩 유튜브 사이트 만들기'라는 주제로 프로젝트를 진행하게 되었는데요, 이 프로젝트는 저의 열정인 코딩과 온라인 교육을 결합한 결과물입니다. 이 프로젝트의 주요 목표는 누구나 쉽게 접근하고 배울 수 있는 공간을 만드는 것입니다. 제가 여러 해 동안 프로그래밍을 공부하면서 느낀 점은 양질의 학습 자료와 개인의 진도에 맞는 커리큘럼이 얼마나 중요한지입니다. 그래서 이 사이트에서는 초보자부터 고급 수준까지 다양한 난이도와 주제의 온라인 강의를 제공할 계획입니다.",
-    author: "webstoryboy",
-    channelId: "UCsvQSv7EeCMHyYb9ENKAJZw",
-    date: "2023.07.07",
+    img: "https://i.ytimg.com/vi/fNlTnJrX7-w/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB6_g7smYLH4YIFXrGXa0_3vl5xaw",
+    title: "웹디자인개발기능사 필기 0원으로 합격하기!",
+    desc: "안녕하세요, 여러분! 오늘은 웹디자인개발기능사 필기 무료 강의를 소개해드리려고 합니다. 0원으로 돈 안들이고 무료로 자격증 합격하기 프로젝트입니다. 이 프로젝트의 주요 목표는 굳이 돈 들이지 않고도 누구나 쉽게 접근하고 배우며 자격증을 딸 수 있게 하는 것입니다.",
+    author: "이미니강사",
+    channelId: "UCUJnANI0QXvqtSJb6Hk_GJQ",
+    date: "2025.03.04",
     page: "/website",
+  },
+  {
+    img: "https://i.ytimg.com/vi/eZmJ1YfuZSU/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBL9SWeo3fNgb4G0fPR_ceZMZAcog",
+    title: "웹디자인개발기능사 실기 0원으로 합격하기!",
+    desc: "안녕하세요, 여러분! 오늘은 웹디자인개발기능사 실기 무료 강의를 소개해드리려고 합니다. 0원으로 돈 안들이고 무료로 자격증 합격하기 프로젝트입니다. 이 프로젝트의 주요 목표는 굳이 돈 들이지 않고도 누구나 쉽게 접근하고 배우며 자격증을 딸 수 있게 하는 것입니다.",
+    author: "이미니강사",
+    channelId: "UCUJnANI0QXvqtSJb6Hk_GJQ",
+    date: "2025.03.04",
+    page: "/gsap",
+  },
+  {
+    img: "https://i.ytimg.com/vi/R2USz-XA1-w/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC1hZhnDPQ2VNpiJkO1IiB0lGcN1g",
+    title: "SQLD 0원으로 합격하기!",
+    desc: "안녕하세요, 여러분! 오늘은 SQLD 무료 강의를 소개해드리려고 합니다. 0원으로 돈 안들이고 무료로 자격증 합격하기 프로젝트입니다. 이 프로젝트의 주요 목표는 굳이 돈 들이지 않고도 누구나 쉽게 접근하고 배우며 자격증을 딸 수 있게 하는 것입니다.",
+    author: "이기적 영진닷컴",
+    channelId: "UCIimf8pEC9AP0N_9FGW_P_w",
+    date: "2025.10.14",
+    page: "/gsap",
   },
 ];

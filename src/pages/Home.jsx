@@ -23,29 +23,29 @@ const Home = () => {
         id="developer"
       />
       <VideoSlider
+        videos={youtubeText}
+        title="0원으로 정보처리기사 필기 합격하기! (성공)"
+        id="youtube"
+      />
+      <VideoSlider
         videos={webdText}
-        title="웹 디자인 개발 기능사 실기 연습"
+        title="0원으로 정보처리기사 실기 합격하기! (성공)"
         id="Webd"
       />
       <VideoSlider
         videos={websiteText}
-        title="웹 표준 사이트 제작 연습"
+        title="0원으로 웹디자인개발기능사 필기 합격하기! (성공)"
         id="WebSite"
       />
       <VideoSlider
         videos={gsapText}
-        title="GSAP 패럴랙스 효과 연습"
+        title="0원으로 웹디자인개발기능사 실기 합격하기! (성공)"
         id="gsap"
       />
       <VideoSlider
         videos={portfolioText}
-        title="포트폴리오 사이트 제작 연습"
+        title="0원으로 SQLD 합격하기! (성공)"
         id="portfolio"
-      />
-      <VideoSlider
-        videos={youtubeText}
-        title="0원으로 정보처리기사 필기 합격하기! (성공)"
-        id="youtube"
       />
     </Main>
   );

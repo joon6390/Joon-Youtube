@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Youtube = () => {
   return (
     <section id="youtube">
-      <h2>0원으로 정보처리기사 필기 합격하기!</h2>
+      <h2>정보처리기사 필기</h2>
       <div className="video__inner">
         {youtubeText.map((video, key) => (
           <div className="video" key={key}>
