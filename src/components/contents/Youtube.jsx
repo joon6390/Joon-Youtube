@@ -1,25 +1,25 @@
-import React from 'react'
+import React from "react";
 
-import { youtubeText } from '../../data/youtube'
-import { Link } from 'react-router-dom'
+import { youtubeText } from "../../data/youtube";
+import { Link } from "react-router-dom";
 
 const Youtube = () => {
-    return (
-        <section id='youtube'>
-            <h2>나만의 유튜브 사이트 제작 연습</h2>
-            <div className="video__inner">
-                {youtubeText.map((video, key) => (
-                    <div className="video" key={key}>
-                        <div className="video__thumb play__icon">
-                            <Link to={`/video/${video.videoId}`}>
-                                <img src={video.img} alt={video.title} />
-                            </Link>
-                        </div>
-                    </div>
-                ))}
+  return (
+    <section id="youtube">
+      <h2>0원으로 정보처리기사 필기 합격하기!</h2>
+      <div className="video__inner">
+        {youtubeText.map((video, key) => (
+          <div className="video" key={key}>
+            <div className="video__thumb play__icon">
+              <Link to={`/video/${video.videoId}`}>
+                <img src={video.img} alt={video.title} />
+              </Link>
             </div>
-        </section>
-    )
-}
+          </div>
+        ))}
+      </div>
+    </section>
+  );
+};
 
-export default Youtube
+export default Youtube;
