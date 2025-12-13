@@ -1,4 +1,4 @@
-export const portfolioText = [
+export const sqldText = [
   {
     title: "[SQLD SQL 개발자 이론+기출문제] 데이터 모델의 이해 (1)",
     img: "https://i.ytimg.com/vi/R2USz-XA1-w/hq720.jpg",

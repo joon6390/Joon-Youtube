@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Main from "../components/section/Main";
 
 import VideoCard from "../components/video/VideoCard";
-import { websiteText } from "../data/website";
+import { webdWText } from "../data/webdw";
 
 const WebdW = () => {
   const [loading, setLoading] = useState(true);
@@ -23,7 +23,7 @@ const WebdW = () => {
       <section id="websitePage" className={websitePageClass}>
         <h2>0원으로 웹디자인개발기능사 필기 합격하기!</h2>
         <div className="video__inner">
-          <VideoCard videos={websiteText} />
+          <VideoCard videos={webdWText} />
         </div>
       </section>
     </Main>

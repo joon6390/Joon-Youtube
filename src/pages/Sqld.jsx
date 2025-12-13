@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Main from "../components/section/Main";
 
 import VideoCard from "../components/video/VideoCard";
-import { portfolioText } from "../data/port";
+import { sqldText } from "../data/sqld";
 
 const Sqld = () => {
   const [loading, setLoading] = useState(true);
@@ -20,7 +20,7 @@ const Sqld = () => {
       <section id="portPage" className={portPageClass}>
         <h2>0원으로 SQLD 합격하기!</h2>
         <div className="video__inner">
-          <VideoCard videos={portfolioText} />
+          <VideoCard videos={sqldText} />
         </div>
       </section>
     </Main>

@@ -1,4 +1,4 @@
-export const webdText = [
+export const iptpText = [
   {
     title: "정보처리기사 실기 핵심 요약 특강1 - 데이터 입출력 구현",
     img: "https://i.ytimg.com/vi/pj2pE5P81Ac/hq720.jpg",

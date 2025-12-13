@@ -1,4 +1,4 @@
-export const youtubeText = [
+export const iptwText = [
   {
     title: "정보처리기사 필기 1과목 - 소프트웨어 설계1",
     img: "https://i.ytimg.com/vi/88uZ-UMlUJE/hq720.jpg",

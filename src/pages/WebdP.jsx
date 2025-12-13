@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Main from "../components/section/Main";
 
 import VideoCard from "../components/video/VideoCard";
-import { gsapText } from "../data/gsap";
+import { webdpText } from "../data/webdp";
 
 const WebdP = () => {
   const [loading, setLoading] = useState(true);
@@ -23,7 +23,7 @@ const WebdP = () => {
       <section id="gsapPage" className={gsapPageClass}>
         <h2>0원으로 웹디자인개발기능사 실기 합격하기!</h2>
         <div className="video__inner">
-          <VideoCard videos={gsapText} />
+          <VideoCard videos={webdpText} />
         </div>
       </section>
     </Main>

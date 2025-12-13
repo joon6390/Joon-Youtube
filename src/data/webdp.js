@@ -1,4 +1,4 @@
-export const gsapText = [
+export const webdpText = [
   {
     title: "2026 웹디자인개발기능사(실기) _ 기출 유형 문제 01회 A유형",
     img: "https://i.ytimg.com/vi/eZmJ1YfuZSU/hq720.jpg",

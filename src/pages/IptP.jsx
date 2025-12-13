@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Main from "../components/section/Main";
 
-import { webdText } from "../data/webd";
+import { iptpText } from "../data/iptp";
 import VideoCard from "../components/video/VideoCard";
 
 const IptP = () => {
@@ -20,7 +20,7 @@ const IptP = () => {
       <section id="webdPage" className={webdPageClass}>
         <h2>0원으로 정보처리기사 실기 합격하기!</h2>
         <div className="video__inner">
-          <VideoCard videos={webdText} />
+          <VideoCard videos={iptpText} />
         </div>
       </section>
     </Main>
