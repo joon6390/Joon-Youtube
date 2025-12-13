@@ -4,7 +4,7 @@ import Main from "../components/section/Main";
 import VideoCard from "../components/video/VideoCard";
 import { portfolioText } from "../data/port";
 
-const Port = () => {
+const Sqld = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -27,4 +27,4 @@ const Port = () => {
   );
 };
 
-export default Port;
+export default Sqld;

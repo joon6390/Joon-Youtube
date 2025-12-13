@@ -4,7 +4,7 @@ import Main from "../components/section/Main";
 import VideoCard from "../components/video/VideoCard";
 import { websiteText } from "../data/website";
 
-const Website = () => {
+const WebdW = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -30,4 +30,4 @@ const Website = () => {
   );
 };
 
-export default Website;
+export default WebdW;

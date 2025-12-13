@@ -4,7 +4,7 @@ import Main from "../components/section/Main";
 import VideoCard from "../components/video/VideoCard";
 import { youtubeText } from "../data/youtube";
 
-const Youtube = () => {
+const IptW = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -27,4 +27,4 @@ const Youtube = () => {
   );
 };
 
-export default Youtube;
+export default IptW;

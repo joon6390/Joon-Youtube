@@ -4,7 +4,7 @@ import Main from "../components/section/Main";
 import { webdText } from "../data/webd";
 import VideoCard from "../components/video/VideoCard";
 
-const Webd = () => {
+const IptP = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -27,4 +27,4 @@ const Webd = () => {
   );
 };
 
-export default Webd;
+export default IptP;

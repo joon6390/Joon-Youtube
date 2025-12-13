@@ -4,7 +4,7 @@ import Main from "../components/section/Main";
 import VideoCard from "../components/video/VideoCard";
 import { gsapText } from "../data/gsap";
 
-const Gsap = () => {
+const WebdP = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -30,4 +30,4 @@ const Gsap = () => {
   );
 };
 
-export default Gsap;
+export default WebdP;
