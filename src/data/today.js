@@ -42,6 +42,6 @@ export const todayText = [
     author: "이기적 영진닷컴",
     channelId: "UCIimf8pEC9AP0N_9FGW_P_w",
     date: "2025.10.14",
-    page: "/gsap",
+    page: "/port",
   },
 ];
