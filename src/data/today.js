@@ -6,7 +6,7 @@ export const todayText = [
     author: "자격증 교육 1위 해커스",
     channelId: "UC4REETmYtlvqHunx2tl2Pmg",
     date: "2024.04.15",
-    page: "/youtube",
+    page: "/iptw",
   },
   {
     img: "https://i.ytimg.com/vi/pj2pE5P81Ac/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBKtCxsxTt4CI0GdBZhRMw426bBwA",
@@ -15,7 +15,7 @@ export const todayText = [
     author: "자격증 교육 1위 해커스",
     channelId: "UC4REETmYtlvqHunx2tl2Pmg",
     date: "2024.06.03",
-    page: "/webd",
+    page: "/iptp",
   },
   {
     img: "https://i.ytimg.com/vi/fNlTnJrX7-w/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLB6_g7smYLH4YIFXrGXa0_3vl5xaw",
@@ -24,7 +24,7 @@ export const todayText = [
     author: "이미니강사",
     channelId: "UCUJnANI0QXvqtSJb6Hk_GJQ",
     date: "2025.03.04",
-    page: "/website",
+    page: "/webdw",
   },
   {
     img: "https://i.ytimg.com/vi/eZmJ1YfuZSU/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBL9SWeo3fNgb4G0fPR_ceZMZAcog",
@@ -33,7 +33,7 @@ export const todayText = [
     author: "이미니강사",
     channelId: "UCUJnANI0QXvqtSJb6Hk_GJQ",
     date: "2025.03.04",
-    page: "/gsap",
+    page: "/webdp",
   },
   {
     img: "https://i.ytimg.com/vi/R2USz-XA1-w/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLC1hZhnDPQ2VNpiJkO1IiB0lGcN1g",
@@ -42,6 +42,6 @@ export const todayText = [
     author: "이기적 영진닷컴",
     channelId: "UCIimf8pEC9AP0N_9FGW_P_w",
     date: "2025.10.14",
-    page: "/port",
+    page: "/sqld",
   },
 ];

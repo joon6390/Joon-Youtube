@@ -23,11 +23,11 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/today" element={<Today />} />
           <Route path="/developer" element={<Developer />} />
-          <Route path="/webd" element={<IptP />} />
-          <Route path="/website" element={<WebdW />} />
-          <Route path="/gsap" element={<WebdP />} />
-          <Route path="/port" element={<Sqld />} />
-          <Route path="/youtube" element={<IptW />} />
+          <Route path="/iptw" element={<IptW />} />
+          <Route path="/iptp" element={<IptP />} />
+          <Route path="/webdw" element={<WebdW />} />
+          <Route path="/webdp" element={<WebdP />} />
+          <Route path="/sqld" element={<Sqld />} />
           <Route path="/channel/:channelId" element={<Channel />} />
           <Route path="/video/:videoId" element={<Video />} />
           <Route path="/search/:searchId" element={<Search />} />

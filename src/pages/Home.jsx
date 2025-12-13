@@ -25,27 +25,27 @@ const Home = () => {
       <VideoSlider
         videos={iptwText}
         title="0원으로 정보처리기사 필기 합격하기! (성공)"
-        id="youtube"
+        id="iptw"
       />
       <VideoSlider
         videos={iptpText}
         title="0원으로 정보처리기사 실기 합격하기! (성공)"
-        id="Webd"
+        id="iptp"
       />
       <VideoSlider
         videos={webdWText}
         title="0원으로 웹디자인개발기능사 필기 합격하기! (성공)"
-        id="WebSite"
+        id="webdw"
       />
       <VideoSlider
         videos={webdpText}
         title="0원으로 웹디자인개발기능사 실기 합격하기! (성공)"
-        id="gsap"
+        id="webdp"
       />
       <VideoSlider
         videos={sqldText}
         title="0원으로 SQLD 합격하기! (성공)"
-        id="portfolio"
+        id="sqld"
       />
     </Main>
   );

@@ -13,11 +13,11 @@ const Sqld = () => {
     }, 300);
   }, []);
 
-  const portPageClass = loading ? "isLoading" : "isLoaded";
+  const sqldPageClass = loading ? "isLoading" : "isLoaded";
 
   return (
     <Main title="SQLD" description="SQLD 강의입니다.">
-      <section id="portPage" className={portPageClass}>
+      <section id="sqldPage" className={sqldPageClass}>
         <h2>0원으로 SQLD 합격하기!</h2>
         <div className="video__inner">
           <VideoCard videos={sqldText} />

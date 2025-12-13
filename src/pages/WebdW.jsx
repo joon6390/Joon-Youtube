@@ -13,14 +13,14 @@ const WebdW = () => {
     }, 300);
   }, []);
 
-  const websitePageClass = loading ? "isLoading" : "isLoaded";
+  const webdwPageClass = loading ? "isLoading" : "isLoaded";
 
   return (
     <Main
       title="웹디자인개발기능사 필기"
       description="웹디자인개발기능사 필기 강의입니다."
     >
-      <section id="websitePage" className={websitePageClass}>
+      <section id="webdwPage" className={webdwPageClass}>
         <h2>0원으로 웹디자인개발기능사 필기 합격하기!</h2>
         <div className="video__inner">
           <VideoCard videos={webdWText} />

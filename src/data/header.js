@@ -30,27 +30,27 @@ export const headerMenus = [
   {
     title: "정보처리기사 필기",
     icon: <CiFries />,
-    src: "/youtube",
+    src: "/iptw",
   },
   {
     title: "정보처리기사 실기",
     icon: <CiBoxes />,
-    src: "/webd",
+    src: "/iptp",
   },
   {
     title: "웹디자인개발기능사 필기",
     icon: <CiBullhorn />,
-    src: "/website",
+    src: "/webdw",
   },
   {
     title: "웹디자인개발기능사 실기",
     icon: <CiCoffeeCup />,
-    src: "/gsap",
+    src: "/webdp",
   },
   {
     title: "SQLD",
     icon: <CiDumbbell />,
-    src: "/port",
+    src: "/sqld",
   },
 ];
 

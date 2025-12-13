@@ -13,11 +13,11 @@ const IptP = () => {
     }, 300);
   }, []);
 
-  const webdPageClass = loading ? "isLoading" : "isLoaded";
+  const iptpPageClass = loading ? "isLoading" : "isLoaded";
 
   return (
     <Main title="정보처리기사 실기" description="정보처리기사 실기 강의입니다.">
-      <section id="webdPage" className={webdPageClass}>
+      <section id="iptpPage" className={iptpPageClass}>
         <h2>0원으로 정보처리기사 실기 합격하기!</h2>
         <div className="video__inner">
           <VideoCard videos={iptpText} />

@@ -13,14 +13,14 @@ const WebdP = () => {
     }, 300);
   }, []);
 
-  const gsapPageClass = loading ? "isLoading" : "isLoaded";
+  const webdpPageClass = loading ? "isLoading" : "isLoaded";
 
   return (
     <Main
       title="웹디자인개발기능사 실기"
       description="웹디자인개발기능사 실기 강의입니다."
     >
-      <section id="gsapPage" className={gsapPageClass}>
+      <section id="webdpPage" className={webdpPageClass}>
         <h2>0원으로 웹디자인개발기능사 실기 합격하기!</h2>
         <div className="video__inner">
           <VideoCard videos={webdpText} />
